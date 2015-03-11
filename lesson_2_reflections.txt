@@ -1,0 +1,5 @@
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+No idea yet. I hope they explain more later. 
+
+I think that the WD is simply a directory that you're doing work in. The staging area is where you keep the files you're going to include in a commit. The repository is where the commits are stored and managed.

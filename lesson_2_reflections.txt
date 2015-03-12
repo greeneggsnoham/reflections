@@ -3,3 +3,20 @@ How is the staging area different from the working directory and the repository?
 No idea yet. I hope they explain more later. 
 
 I think that the WD is simply a directory that you're doing work in. The staging area is where you keep the files you're going to include in a commit. The repository is where the commits are stored and managed.
+
+Commands and their meanings:
+git diff (with no arguments) compares the working directory to the staging area
+git diff --staged compares the staging area with the head(?) or last commit
+git diff commitid1 commitid two compares two commits in the repository
+
+git reset --hard undoes all changes to the staging and working directory
+
+git checkout master for when the head is separated
+
+git branch - shows all branches for the repository
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+When you make a change to a file, immediately add it to the staging area. When you're finished working on the change, commit it. Don't wait until you're done all the changes to add them to the staging area
+

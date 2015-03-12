@@ -12,11 +12,24 @@ git diff commitid1 commitid two compares two commits in the repository
 git reset --hard undoes all changes to the staging and working directory
 
 git checkout master for when the head is separated
+git checkout (name) for switching to a different branch
 
 git branch - shows all branches for the repository
+git branch (name) creates a new branch of that name
 
+git branch -d (name of branch) deletes the label of the branch. If the branch has been merged, this should result in 
+
+git show - show the changes introduced in a commit compared to its parent. Very useful when comparing as you may not know what the parent of the commit was when there have been branches
+
+git merge (to branch) (from branch) merges two branches
+git merge (to branch) you don't need the from branch if you are currentl y in the branch you want to merge
+git merge --abort if you have conflicts (ie something wasn't committed yet) then you can abort and restart the process
 
 How can you use the staging area to make sure you have one commit per logical change?
 
 When you make a change to a file, immediately add it to the staging area. When you're finished working on the change, commit it. Don't wait until you're done all the changes to add them to the staging area
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Whenever you want to experiment with something different or when you copy a repository from someone else to make changes yourself. Then you can attempt to merge later. Whenever making a fairly large change that might take long enough to complete that it would affect the creation and release of other stuff.
 

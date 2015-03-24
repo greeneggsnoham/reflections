@@ -1,0 +1,7 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+Lots of reasons. First of all, and perhaps most commonly, in order to be able to work from multiple locations, either yourself or as a team of developers.
+
+Secondly, you might use github as a backup for your code, in case your lose your local storage.
+
+Third, you might create it on github as a way to demonstrate your mad programming skills to potential employers or other developers, as a working resume.

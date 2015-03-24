@@ -9,3 +9,7 @@ Third, you might create it on github as a way to demonstrate your mad programmin
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 Because on a large project with many participants you would end up spending a lot of time merging and reconciling conflicts. 
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Forks are when you want to use something from another project without influencing the source or being influenced by the source. Clones are mostly for when you want to contribute to a project. Branches are mostly for experimenting or adding features without affecting the master or main build during the development.

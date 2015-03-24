@@ -33,3 +33,6 @@ What are some situations when branches would be helpful in keeping your history 
 
 Whenever you want to experiment with something different or when you copy a repository from someone else to make changes yourself. Then you can attempt to merge later. Whenever making a fairly large change that might take long enough to complete that it would affect the creation and release of other stuff.
 
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+You can easily package changes that are related to a need or requirement, making it easier to track and understand the history as well as track down where bugs or changes occurred. 

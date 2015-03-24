@@ -5,3 +5,7 @@ Lots of reasons. First of all, and perhaps most commonly, in order to be able to
 Secondly, you might use github as a backup for your code, in case your lose your local storage.
 
 Third, you might create it on github as a way to demonstrate your mad programming skills to potential employers or other developers, as a working resume.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+Because on a large project with many participants you would end up spending a lot of time merging and reconciling conflicts. 
